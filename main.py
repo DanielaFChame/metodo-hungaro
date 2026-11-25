@@ -2,7 +2,12 @@ import hungaro
 
 
 def main():
-    custos = [[13, 11, 1, 2], [11, 22, 12, 10], [6, 10, 1, 6], [6, 8, 1, 4]]
+    custos = [
+        [13, 11, 1, 2], 
+        [11, 22, 12, 10], 
+        [6, 10, 1, 6], 
+        [6, 8, 1, 4]
+    ]
 
     objetivo = int(input("Minimizar (0) ou maximizar (1)? "))
 
